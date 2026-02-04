@@ -1,0 +1,32 @@
+/*padrao pc*/
+@media(max-width:4000px){
+    body{
+        background-color: blue;
+    }
+}
+/*padrao de celular*/
+@media(max-width:576px){
+   body{
+    background-color: rgb(56, 54, 54);
+   }
+   header img{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+   .direita{
+    text-align: right;
+   }
+   .fixo{
+        height: 40px;
+        background-color: rgb(206, 206, 36);
+        position: absolute;
+        z-index: 2;
+        top: 850px;
+        width: 100%;
+        color: white;
+
+    }
+}
+    
+
+
