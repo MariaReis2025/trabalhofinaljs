@@ -9,16 +9,19 @@
     <body>
         <section class="fixo fx centraliza">
             <div class="col-3">
-                <img class="col-4" src="imagem/pagina_inicial.png">
+                <a href="index.html"><img class="col-4" src="imagem/pagina_inicial.png"></a>
             </div>
             <div class="col-3">
-                <img class="col-4" src="imagem/treinos.png">
+                <a href="aliment.html"><img class="col-4" src="imagem/aliment.saudavel.png"></a>
             </div>
             <div class="col-3">
-                <img class="col-4" src="imagem/meus_dados.png">
+                <a href="treinos.html"><img class="col-4" src="imagem/treinos.png"></a>
             </div>
             <div class="col-3">
-                <img class="col-4" src="imagem/ajuda.png">
+                <a href="acessorios.html"><img class="col-4" src="imagem/fone.png"></a>
+            </div>
+            <div class="col-3">
+                <a href="regulamento.html"><img class="col-4" src="imagem/ajuda.png"></a>
             </div>
         </section>
         <header class="fxw">
@@ -30,5 +33,69 @@
                 <img class="col-2" src="imagem/treinos.png">
             </div>
         </header>
+        <section class="s1">
+            <div class="slider">
+                <div class="slider_principal fxw">
+                    <input type="radio" name="bola" id="bola1">
+                    <input type="radio" name="bola" id="bola2">
+                    <input type="radio" name="bola" id="bola3">
+                    <div class="slidee primeiro">
+                        <img  src="imagem/Slide01.jpeg">
+                    </div>
+                    <div class="slidee">
+                        <img  src="imagem/slider02.jpg">
+                    </div>
+                    <div class="slidee">
+                        <img  src="imagem/slider03.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="quadradinhos">
+                <label for="bola1"><img src="imagem/ponto.png"></label>
+                <label for="bola2"><img src="imagem/ponto.png"></label>
+                <label for="bola3"><img src="imagem/ponto.png"></label>
+            </div>
+        </section>
+        <section class="s2">
+            <h1>Escolha o seu plano:</h1>
+            <select id="plano">
+                <option>Selecione aqui:</option>
+                <option value="Plano Basic">Plano Basic</option>
+                <option value="Plano Silver">Plano Silver</option>
+                <option value="Plano Gold">Plano Gold</option>
+            </select>
+            <div id="resposta"></div>
+            <button id="finalizar" class="finalizar">Concluir</button>
+        </section>
+        <section class="s3 fxw">
+            <h1 class="centraliza col-12">Depoimento de clientes</h1>
+            <div class="col-4 ">
+                <img class="col-2" src="imagem/mariana.png">
+                <h1>O atendimento na recepção é impecável e os professores estão sempre atentos à execução dos movimentos."</h1>
+                <h1>Sinto que treino com segurança e muita motivação todos os dias!</h1>
+                <h1> — Mariana Silva, aluna há 6 meses.</h1>
+            </div>
+            <div class="col-4">
+                <img class="col-2" src="imagem/Ricardo.png">
+                <h1>raças ao acompanhamento da equipe e ao plano de treinos bem estruturado,</h1>
+                <h1>eliminei 12kg em 4 meses e recuperei minha disposição. A energia do ambiente é</h1>
+                <h1>contagiante e a estrutura é de primeira linha.</h1>
+                <h1> — Ricardo Oliveira, aluno do plano anual.</h1>
+            </div>
+            <div class="col-4">
+                <img class="col-2" src="imagem/lucas.png">
+                <h1>A equipe técnica daqui é extremamente qualificada e sempre traz novidades para o meu treino</h1>
+                <h1>Além da infraestrutura ser excelente, o clima de parceria entre alunos e professores faz toda a diferença.</h1>
+                <h1>Melhor custo-benefício da região!</h1>
+                <h1> — Lucas Mendes, aluno há 1 ano</h1>
+            </div>
+        </section>
+        <footer class="fixo2 fx centraliza">            
+            <div>
+                <h1>Rua Ana Lucia da Silva, 341</h1>
+                <h1>34 3612-5588</h1>
+            </div>
+        </footer>
     </body>
+    <script src="script.js"></script>
 </html>

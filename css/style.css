@@ -18,13 +18,83 @@
    }
    .fixo{
         height: 40px;
-        background-color: rgb(206, 206, 36);
+        background-color: rgba(248, 212, 5, 0.979);
         position: absolute;
         z-index: 2;
         top: 850px;
         width: 100%;
         color: white;
-
+       
+    }
+    .fixo2{        
+        color: white;
+        margin-left: 25%;
+    }
+    .slider{
+        width: 200%;
+        overflow: hidden;
+        height: 250px;
+        padding: 20px 0px;
+    }
+    .slide_principal{
+        display: flex;
+        width: 300%;
+    }
+    .slidee img{
+        height: 250px;
+        width: 100%;
+    }
+    .slidee{
+        width: 50%;
+        transition: margin-left 2s !important;
+    }
+     .slider input{
+        display: none;
+    }
+    .quadradinhos{
+        text-align: center;
+        margin-top: -20px;
+    }
+    .quadradinhos label{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #bola1:checked ~.primeiro{
+        margin-left: 0%;
+    }
+    #bola2:checked ~.primeiro{
+        margin-left: -50%;
+    }
+    #bola3:checked ~.primeiro{
+        margin-left: -100%;
+    }
+    .quadradinhos img{
+        width: 4%;        
+    }
+    .s2{
+        padding: 20px;
+        text-align: center;
+    }
+    .s2 select{
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10%;
+        font-size: 16px;
+    }
+    .s2 h1{
+        font-size: 20px;
+        color: white;
+    }
+    .s2 button{
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10%;
+    }
+    .s2 button:hover{
+        background-color: rgba(248, 212, 5, 0.979);
     }
 }
     
